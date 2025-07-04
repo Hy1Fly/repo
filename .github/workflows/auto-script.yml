@@ -1,0 +1,12 @@
+name: Run Automation Script
+on: [push]
+jobs:
+  execute-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Run Script
+        run: | 
+          chmod +x ./scripts/script.sh
+          ./scripts/script.sh
