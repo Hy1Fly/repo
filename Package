@@ -1,0 +1,9 @@
+ Package: PlumpyBar
+ Maintainer: LF
+ Section: Themes
+ Architecture: iphoneos-arm64
+ Version: 1.1
+ Depends: firmware (>= 15.0), mobilesubstrate
+ Description: 舒服的Plumpy风格状态栏，由LF支持电话助手，此为无根越狱版本
+ Name: PlumpyBar
+ Author: LF
